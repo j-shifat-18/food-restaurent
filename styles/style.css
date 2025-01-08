@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* font-family: "Work Sans", serif; */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.btn-container {
+    text-align: center;
+}
+
+#hero {
+    background: linear-gradient(0deg, rgb(16, 16, 16) -19.5%, rgba(16, 16, 16, 0) 100%), url("../assets/hero-bg.png");
+    height: 735px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#hero .hero-content {
+    width: 818px;
+
+}
+
+#hero .hero-content .subtitle {
+    opacity: 0.8;
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 13px;
+}
+
+#hero .hero-content .title {
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 51px;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 19px;
+}
+
+#hero .hero-content .description {
+    opacity: 0.7;
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: center;
+
+}
+
+.btn {
+    padding: 16px 25px 16px 25px;
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: 0%;
+    text-align: center;
+    border-radius: 8px;
+    background: rgb(82, 195, 3);
+    border: none;
+    margin-top: 26px;
+    cursor: pointer;
+}
+
+#card-box {
+    display: flex;
+    justify-content: center;
+    width: 1056px;
+    /* height: 696px; */
+    margin: 133px 240px;
+    /* background-color: antiquewhite; */
+
+}
+
+/* .container .info {
+    width: 552px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+} */
+
+
+
+#card-box .subtitle {
+    opacity: 0.6;
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+#card-box .title {
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 51px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.card-container {
+    margin-top: 38px;
+    display: flex;
+    gap: 19px;
+    justify-content: space-between;
+
+}
+
+.card {
+    max-width: 339px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card .card-image {
+    width: 340px;
+
+
+}
+
+.card .card-image img {
+    width: 100%;
+}
+
+.card .shop {
+    margin-top: 25px;
+    margin-bottom: 19px;
+    padding: 14px 32px 14px 32px;
+    border-radius: 8px;
+    background: rgba(82, 195, 3, 0.15);
+}
+
+.card-header {
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.card-footer {
+    margin-bottom: 51px;
+    margin-top: 19px;
+    opacity: 0.7;
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: center;
+
+}
+
+#about-us {
+    margin: 0;
+    width: 1536px;
+    display: flex;
+    /* background-color: antiquewhite; */
+
+}
+
+#about-us .about-us-image {
+    width: 768px;
+}
+
+#about-us .about-us-image img {
+    width: 100%;
+    height: 100%;
+}
+
+#about-us .about-us-content {
+    width: 768px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.titles {
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+}
+
+.about-us-title {
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 51px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.about-us-subtitle {
+    opacity: 0.6;
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.follow {
+    opacity: 0.7;
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.follow-us {
+    width: 1056px;
+    box-sizing: border-box;
+    border-bottom: 1px solid rgba(16, 16, 16, 0.2);
+    border-top: 1px solid rgba(16, 16, 16, 0.2);
+    margin: 38px 0px;
+}
+
+.follow-us .follow {
+    padding: 24px 8px 24px 8px;
+}
+
+.social-media {
+    display: flex;
+    gap: 26px;
+}
+
+#contact {
+    margin-top: 50px;
+    height: 671px;
+    background-image: url('/assets/image\ 2.png');
+    background-color: rgba(255, 255, 255, 0.9);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#contact .contact-container{
+    width: 1056px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact .follow-us{
+    text-align: center;
+}
