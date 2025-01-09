@@ -265,7 +265,8 @@
 #contact {
     margin-top: 50px;
     height: 671px;
-    background-image: url('../assets/image\ 2.png');
+    background-image: url('../assets/image 2.png');
+    /* C:\Users\faysa\OneDrive\Desktop\webDev\ui-projects-ph\food-restaurent\assets\image 2.png */
     background-color: rgba(255, 255, 255, 0.9);
     background-size: cover;
     display: flex;
